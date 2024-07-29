@@ -270,7 +270,7 @@ table {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 0.4rem;
   position: relative;
   z-index: 1;
@@ -278,7 +278,7 @@ table {
 
 .map__description {
   max-width: 18rem;
-  margin: 0 1rem 0 4rem;
+  margin: 0 0rem 0 4rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -305,8 +305,11 @@ table {
 .map__img {
   width: 80%;
   max-height: 12rem;
+  margin: 0 0 0 2rem;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   position: relative;
   z-index: 4;
 }
