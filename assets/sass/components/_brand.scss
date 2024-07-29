@@ -25,6 +25,7 @@
 }
 .brand__p {
     font-family: $font-roboto;
+    font-size: $x-large;
     font-weight: 300;
     text-align: left;
     margin-left: 5rem;
@@ -34,10 +35,10 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 9rem;
+    height: 9rem;
     font-family: $font-roboto;
-    font-size: $x-large;
+    font-size: $xxx-large;
     font-weight: 800;
     color: $white;
 }    
