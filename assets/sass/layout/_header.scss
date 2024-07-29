@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7rem;
+    align-items: center;
+    height: 9.99vh;
+}
+.nav__subcontainer {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav__img {
+    width: 1.8rem;
+}
+.nav__ul {
+    display: flex;
+    gap: 2rem;
+}
+.nav__buttons {
+    display: flex;
+    gap: 3rem;
+}

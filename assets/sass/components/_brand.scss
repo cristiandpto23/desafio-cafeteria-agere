@@ -1,0 +1,53 @@
+.brand {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+.brand_texts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: -5rem;
+    gap: 1.2rem;
+}
+.brand__title {
+    font-family: $font-mono;
+    font-size: $xxx-large;
+    text-align: left;
+    margin-top: 2.8rem;
+    margin-left: 5rem;
+}
+.brand__p {
+    font-family: $font-roboto;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 5rem;
+}
+.brand__arrow {
+    background-color: $buff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 7.5rem;
+    height: 7.5rem;
+    font-family: $font-roboto;
+    font-size: $x-large;
+    font-weight: 800;
+    color: $white;
+}    
+.brand__arrow--moving {
+    background-color: $coral;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 3;
+}

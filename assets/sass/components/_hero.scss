@@ -1,0 +1,44 @@
+.hero {
+    position: relative;
+    width: 100%;
+    
+
+
+    .hero__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 100%;
+
+    }
+    .hero__text-container {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 40%;
+        height: 20%;
+        background-color: $white;
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        padding: 1.2rem 4rem;
+        z-index: 2;
+    }
+    .hero__statistic {
+        width: 6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    .hero__subtitle {
+        font-family: $font-mono;
+        font-size: xx-large;
+    }
+    .hero__description {
+        font-family: $font-roboto;
+        font-size: $medium;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+}
