@@ -4,21 +4,41 @@
     margin: 0 7rem;
     align-items: center;
     height: 9.99vh;
-}
-.nav__subcontainer {
-    display: flex;
-    align-items: center;
-    gap: 5rem;
+
+    &__subcontainer {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+    &__img {
+        width: 1.8rem;
+    }
+    &__ul {
+        display: flex;
+        gap: 2rem;
+    }
+    &__buttons {
+        display: flex;
+        gap: 3rem;
+    }
+    &__li {
+        font-size: $medium;
+    }
 }
 
-.nav__img {
-    width: 1.8rem;
+
+@media (max-width: 850px) {
+    .nav__menu {
+        visibility: hidden;
+        display: none;
+    }
 }
-.nav__ul {
-    display: flex;
-    gap: 2rem;
-}
-.nav__buttons {
-    display: flex;
-    gap: 3rem;
+@media (max-width: 600px) {
+    .nav {
+        margin: 0 2rem;
+    
+        &__buttons {
+            gap: 0.8rem;
+        }
+    }
 }

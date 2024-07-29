@@ -13,6 +13,8 @@
     align-items: start;
     margin-left: -5rem;
     gap: 1.2rem;
+    position: relative;
+    z-index: 5;
 }
 .brand__title {
     font-family: $font-mono;

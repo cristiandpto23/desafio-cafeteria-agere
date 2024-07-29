@@ -40,4 +40,38 @@ body {
     .brand {
         width: 100%;
     }
+    .main__second-subcontainer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .map {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .coffee {
+        width: 100%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 4rem;
+    }
+    .map__img-container {
+        width: 80%;
+        height: 100%;
+    }
+    .map__img {
+        width: 100%;
+    }
+    .map__figure {
+        width: 30%;
+    }
+    .coffee__figure {
+        left: 0;
+    }
+    
+    
 }
+
