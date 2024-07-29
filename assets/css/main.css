@@ -65,19 +65,47 @@ table {
   border-spacing: 0;
 }
 
-a {
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6.25rem;
+}
+
+.nav__subcontainer {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.nav__img {
+  width: 1.8rem;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__buttons {
+  display: flex;
+  gap: 3rem;
+}
+
+.a {
   font-family: "PT Mono", monospace;
   font-weight: 400;
   color: #A2A2A2;
   text-decoration: none;
 }
 
-a:hover {
+.a:hover {
   color: #454545;
 }
 
-.primary-button, .secondary-button {
-  width: 10rem;
+.button--primary, .button--secondary {
+  width: -moz-fit-content;
+  width: fit-content;
   height: 2.4rem;
   padding: 10px 20px;
   font-family: "PT Mono", monospace;
@@ -86,25 +114,25 @@ a:hover {
   transition: all 0.3s;
 }
 
-.primary-button {
+.button--primary {
   background-color: #FFF;
   border: 2px solid #A2A2A2;
   color: #A2A2A2;
 }
 
-.secondary-button {
+.button--secondary {
   background-color: #4CA866;
   border: none;
   color: #FFF;
 }
 
-.primary-button:hover {
+.button--primary:hover {
   background-color: #FFF;
   border: 2px solid #454545;
   color: #454545;
 }
 
-.secondary-button:hover {
+.button--secondary:hover {
   background-color: #9DCFAB;
   color: #989797;
 }
